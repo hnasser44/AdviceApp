@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Overpass:wght@400;700&family=Roboto+Slab:wght@600&display=swap');
+
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     background-color: hsl(218, 23%, 16%);
+     font-family: Manrope, sans-serif;
+     font-size: 28px;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding: 1.25rem;
+     
+}
+
+
+.container {
+     padding: 1.5rem;
+     background-color: hsl(217, 19%, 24%);
+     border-radius: 3%;
+     
+}
+
+@media screen and (min-width: 800px){
+     .container {
+          width: 50%;
+     }
+}
+
+h1 {
+     text-align: center;
+     font-size: .6em;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     color: hsl(150, 100%, 66%);
+     margin-bottom: 2em;
+}
+
+p {
+     text-align: center;
+     color: hsl(193, 38%, 86%);
+}
+
+.seperate-img{
+     margin-top: 1.5em;
+}
+
+button {
+     background-color: hsl(150, 100%, 66%);
+     padding: 1.25rem;
+     border: none;
+     border-radius: 50%;
+     transition: background-color 0.3s ease-in-out;
+     cursor: pointer;
+     position: relative;
+     top: 50px;
+}
+
+button:hover {
+     background-color: hsl(150, 53%, 44%);
+}
+
+.attribution { font-size: 12px; text-align: center; margin-top: 5em; color: white;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
